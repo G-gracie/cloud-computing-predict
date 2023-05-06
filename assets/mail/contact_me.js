@@ -24,8 +24,8 @@ $(function () {
             var json = {name: name, phone: phone, email: email, message: message}
             $.ajax({
                 // --- CHANGE THIS LINE TO YOUR OWN API GATEWAY  -------- 
-                url: "https://f5q1q1u1ed.execute-api.eu-west-1.amazonaws.com/default/F-predict-cloud",
-                // ------------------------------------------------------  
+                url: https://f5q1q1u1ed.execute-api.eu-west-1.amazonaws.com/default/G-cloud-predict",
+                 
                 type: "POST",
                 data: JSON.stringify(json),
                 cache: false,
